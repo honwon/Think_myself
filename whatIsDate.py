@@ -29,4 +29,4 @@ print(datetime.timedelta(hours=1,seconds=59).total_seconds())
 print(datetime.date.fromisoformat('2019-12-04'))
 
 print(datetime.datetime.fromisoformat('2011-11-04'))
-print('G2md')
+print('G2smd')
