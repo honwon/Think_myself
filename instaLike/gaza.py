@@ -3,6 +3,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 from instaIDPW import ID,PW
 import time
+import os
 import datetime
 from random import randint
 
@@ -10,16 +11,16 @@ instaID= ID #인스타그램 ID
 instaPW = PW  #인스타그램 PW
 
 #좋아요 기다리는 시간
-random_wait_min = 3
-random_wait_max = 10
+random_wait_min = 2
+random_wait_max = 5
 #다음 게시물 팅굼
-random_next_min = 1
-random_next_max = 5
+random_next_min = 0
+random_next_max = 2
 
 #새로고침 수
-refresh_count = 40
+refresh_count = 5
 #좋아요 누를 수
-onetime_count = 20
+onetime_count = 10
 # Total Like Count is refesh_count * onetime_count
 
 # 검색할 태그
